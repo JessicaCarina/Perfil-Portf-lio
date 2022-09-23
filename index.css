@@ -20,6 +20,25 @@ header img{
     border-radius: 50%;
     border: 5px solid rgb(110, 84, 148)
 }
+
+header button{
+    border: none;
+    background-color: rgb(110, 84, 148);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header button:hover{
+    background-color:rgb(80,54,118);
+}
 .center{
     text-align: center;
 }

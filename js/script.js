@@ -14,3 +14,20 @@ function ApresentarModal(){
         });
     } 
 }
+
+var imagesizeW = $('.foto').width();
+var imagesizeH = $('.foto').height();
+    
+$('.zoomout').on('click', function(){
+    imagesizeW = imagesizeW - 60;
+    imagesizeH = imagesizeH - 60;
+    $('.foto').width(imagesizeW);
+    $('.foto').height(imagesizeH);
+});
+
+$('.zoomin').on('click', function(){
+    imagesizeW = imagesizeW + 60;
+    imagesizeH = imagesizeH + 60;
+    $('.foto').width(imagesizeW);
+    $('.foto').height(imagesizeH);
+});
